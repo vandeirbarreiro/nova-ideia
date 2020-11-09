@@ -12,7 +12,7 @@ function Contador(){
     const [contador, setContador] = useState(1);
 
     function adicionarContador(){
-        console.log(`This processor architecture is ${process.env.NEXT_PUBLIC_HOME_ENV}`);
+        console.log(`This processor architecture is ${process.arch}`);
         setContador(contador + 1);
     }
 
